@@ -81,7 +81,6 @@ sudo nano /etc/keyd/default.conf
 Paste the following configuration
 
 ```TOML
-Ini, TOML
 [ids]
 *
 
