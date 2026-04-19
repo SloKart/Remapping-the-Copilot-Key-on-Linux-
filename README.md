@@ -88,7 +88,8 @@ Paste the following configuration
 # Intercept Copilot key behavior and treat it as a Meta layer trigger
 leftmeta = layer(meta_layer)
 
-[meta_layer]
+# Define the layer to inherit the Meta (M) modifier
+[meta_layer:M]
 # Normalize the sequence into a clean Right Meta output
 shift = rightmeta
 ```
